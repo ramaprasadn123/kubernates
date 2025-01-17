@@ -1,4 +1,4 @@
-# kubernates
+# kubernates testing by ram 
 
 K8-Link full doc
 
@@ -86,7 +86,7 @@ Then deploy the AWS ALB Ingress controller:
 curl -sS "https://raw.githubusercontent.com/kubernetes-sigs/aws-alb-ingress-controller/v1.1.4/docs/examples/alb-ingress-controller.yaml" \
      | sed "s/# - --cluster-name=devCluster/- --cluster-name=attractive-gopher/g" \
      | kubectl apply -f -
-Bash
+Bash twating by ar
 Finally, verify that the deployment was successful and the controller started:
 
 $ kubectl logs -n kube-system $(kubectl get po -n kube-system | egrep -o alb-ingress[a-zA-Z0-9-]+)
